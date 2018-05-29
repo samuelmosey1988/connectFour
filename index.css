@@ -1,0 +1,28 @@
+#gameBoard {
+    display: flex; 
+}
+
+.blackDisk {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    pointer-events: none; 
+}
+
+.redDisk {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 300px;
+    width: 50px;
+    background-color: gray;
+    border: solid black 2px;
+}
